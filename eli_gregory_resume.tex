@@ -1,0 +1,191 @@
+%-------------------------
+% Resume in LaTeX - Derived from provided template
+% Author: Your Name
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}: #2 \vspace{-2pt}
+  }
+}
+
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large #1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small #1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\LARGE \textbf{Eli Gregory}} & \\
+  \href{mailto:eligreg@gmail.com}{eligreg@gmail.com} & 301.602.0853 \\
+\end{tabular*}
+
+\vspace{5pt}
+Seasoned software engineer with refined taste, keen product sense, natural design instincts, and deep engineering curiosity.  
+Holds himself and his team to high standards—consistently delivering products at velocity that drive measurable business value.
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Indiana University}{Bloomington, IN}
+    {B.S. Informatics @ School of Informatics, Computing and Engineering; Double Minor: Fine Arts, Telecommunications}{2010}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Freemodel}{(Remote)}
+    {Senior Software Engineer, iOS Client Apps}{Jul 2022 -- Dec 2024}
+    \resumeItemListStart
+      \resumeItem{Zero-to-One iOS App Development}
+        {Built the client app from scratch for a Silicon Valley startup, “Uber for home remodeling.”}
+      \resumeItem{Architectural Foundations}
+        {Established early architectural patterns and foundational infrastructure balancing velocity and sustainability.}
+      \resumeItem{Business Impact}
+        {Led three successful product releases, automating business operations moving from manual spreadsheets to a digital platform.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Esri}{Portland, OR}
+    {Product Owner, ArcGIS Open Source Apps}{Jun 2019 -- Jun 2021}
+    \resumeItemListStart
+      \resumeItem{Cross-Platform Portfolio}
+        {Led a multi-disciplinary team building a portfolio of 14 location-based apps across 7 platforms, published in open source.}
+      \resumeItem{Community Engagement}
+        {Fostered community as an ArcGIS developer advocate at flagship events and quarterly meetups. Managed Github community (100+ daily unique clones).}
+      \resumeItem{Multi-Role Adaptability}
+        {Operated as Product Owner, Developer, Designer, Docs Writer, and GIS Analyst given a smaller team structure.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Esri}{Portland, OR}
+    {iOS Software Engineer, ArcGIS Open Source Apps}{Nov 2017 -- Jun 2019}
+    \resumeItemListStart
+      \resumeItem{iOS Lead Developer}
+        {Primary iOS developer of 3 location-based apps published in open source. Published UIs in open source toolkit.}
+      \resumeItem{Open Source Advocacy}
+        {Authored 14+ tutorials on developing apps using ArcGIS Runtime API for iOS. Featured speaker at Esri Developer Summit.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Moishe House Foundation}{(Remote)}
+    {iOS Software Engineer \& Technical Team Lead}{Jul 2015 -- Jul 2017}
+    \resumeItemListStart
+      \resumeItem{Technical Leadership}
+        {Led internal operations software reaching thousands of users annually.}
+      \resumeItem{iOS App Development}
+        {Developed iOS app for accounting millions of dollars in annual community programming spend. Architected mobile API with Ruby on Rails backend.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Dot Dot Dash Inc.}{(Remote)}
+    {iOS Software Engineer}{Jun 2014 -- Jul 2015}
+    \resumeItemListStart
+      \resumeItem{Holiday Lighting iOS App}
+        {Built iOS app controlling LED holiday lights (BLE integration), sold in Apple Stores for the 2014 holiday season.}
+      \resumeItem{Camera Integration}
+        {Developed iOS camera app with affixable lenses and assisted in experiential art installations.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {The John F. Kennedy Center for the Performing Arts}{Washington, D.C.}
+    {iOS Software Engineer \& Software QA Engineer}{Sep 2010 -- 2014}
+    \resumeItemListStart
+      \resumeItem{Digital Art Platform}
+        {QA for online arts integrated educational content. Developed Arts Days Twitter Bot and iOS App featured at Apple’s 2013 WWDC.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Kibbutz Lotan Center for Creative Ecology}{Hevel Eilot, Israel}
+    {Ecological Volunteer}{Jul 2011 -- Nov 2011}
+    \resumeItemListStart
+      \resumeItem{Sustainability Research}
+        {Analyzed energy efficiency of earth structures vs. cinderblock at Ben Gurion University. Learned permaculture and sustainability.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------LIFESTYLE/INTERESTS---------------
+\section{Lifestyle \& Interests}
+\resumeSubHeadingListStart
+  \item Scuba Certified, Wilderness Backpacker, Community Leader, Code Mentor, Women In Tech Advocate, Travel Enthusiast
+\resumeSubHeadingListEnd
+
+\end{document}
+
